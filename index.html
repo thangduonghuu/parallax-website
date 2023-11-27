@@ -11,11 +11,20 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
+    <header>
+      <h2 class="logo">Logo</h2>
+      <nav class="navigation">
+        <a href="#"> Home</a>
+        <a href="#"> About</a>
+        <a href="#"> Serivce</a>
+        <a href="#"> Contact</a>
+      </nav>
+    </header>
     <section class="parallax">
-      <h2 id="text">Parallax website</h2>
-
       <img
         src="https://cdn2.hubspot.net/hubfs/1951013/Parallax/SkyBG.png"
         id="sky"
@@ -84,5 +93,8 @@
       </p>
     </section>
     <script src="./assets//js/index.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

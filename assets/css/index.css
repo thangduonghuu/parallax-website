@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Condensed:wght@100&family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -10,7 +12,31 @@ body {
   min-height: 100vh;
   /* background: linear-gradient(#2b1055, #7597de); */
 }
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo {
+  font-size: 2rem;
+  color: #fff;
+  pointer-events: none;
+}
 
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin: 0 10px;
+  font-weight: 600;
+}
 .parallax {
   position: relative;
   display: flex;
@@ -33,7 +59,7 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
-
+  transition: 0.2s linear ease-out;
   pointer-events: none;
   left: 0;
 }
