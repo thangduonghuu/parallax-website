@@ -38,17 +38,22 @@ body {
   left: 0;
 }
 .sec {
-  padding: 100px;
   min-height: 100vh;
   position: relative;
   display: flex;
+  max-width: 1000px;
   flex-direction: column;
   color: #fff;
+  margin: 0 auto;
 }
 .sec h2 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
-
+.sec p {
+  font-size: 1rem;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
 #hill {
   bottom: -50px;
 }
